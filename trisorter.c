@@ -14,7 +14,7 @@ void get_user_input() {
 	scanf("%d", &c);
 };
 
-int main () {
+int main() {
 	get_user_input();
 	return 0;
 }
