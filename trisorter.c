@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-void get_user_input() {
-	int a,b,c,tmp;
+int a,b,c,tmp;
 
+void get_user_input() {
 	printf("\nWelcome.\n");
 	printf("This program will find the highest number from the inputs.\n\n");
 
