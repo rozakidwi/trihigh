@@ -4,7 +4,7 @@ void get_user_input() {
 	int a,b,c,tmp;
 
 	printf("\nWelcome.\n");
-	printf("This program will find the highest number from the inputs\n\n");
+	printf("This program will find the highest number from the inputs.\n\n");
 
 	printf("Insert the first number: ");
 	scanf("%d", &a);
