@@ -14,7 +14,21 @@ void get_user_input() {
 	scanf("%d", &c);
 };
 
+void highest_number() {
+	tmp = a;
+
+	if (b > tmp) {
+		tmp = b;
+	};
+	if (c > tmp) {
+		tmp = c;
+	};
+
+	printf("\nThe highest number is: %d\n\n", tmp);
+};
+
 int main() {
 	get_user_input();
+	highest_number();
 	return 0;
 }
