@@ -12,7 +12,7 @@ void get_user_input() {
 	scanf("%d", &b);
 	printf("Insert the third number: ");
 	scanf("%d", &c);
-};
+}
 
 void highest_number() {
 	tmp = a;
@@ -25,7 +25,7 @@ void highest_number() {
 	};
 
 	printf("\nThe highest number is: %d\n\n", tmp);
-};
+}
 
 int main() {
 	get_user_input();
